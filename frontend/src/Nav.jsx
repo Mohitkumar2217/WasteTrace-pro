@@ -6,19 +6,19 @@ export default function Navbar() {
 
     return (
         <nav className="navbar">
-            <div className="navbar-container">
-                <a className="brand" href="/">
-                    <svg
-                        className="brand-logo"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden
-                    >
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 2.76 2.24 5 5 5h4c2.76 0 5-2.24 5-5 0-3.87-3.13-7-7-7zm0 20c-4.42 0-8-1.79-8-4v-2h16v2c0 2.21-3.58 4-8 4z" />
-                    </svg>
-                    <span className="brand-text">WasteTrace</span>
-                </a>
+            <a className="brand" href="/">
+                <svg
+                    className="brand-logo"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden
+                >
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 2.76 2.24 5 5 5h4c2.76 0 5-2.24 5-5 0-3.87-3.13-7-7-7zm0 20c-4.42 0-8-1.79-8-4v-2h16v2c0 2.21-3.58 4-8 4z" />
+                </svg>
+                <span className="brand-text">WasteTrace</span>
+            </a>
 
+            <div className="navbar-container">
                 {/* Nav Links */}
                 <ul className="nav-links">
                     <li><a href="/">Home</a></li>
